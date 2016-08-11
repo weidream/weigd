@@ -1,0 +1,5 @@
+set(msgserver_SRCS
+  msg_server.cc
+  )
+add_executable(sgserver ${server_SRCS})
+target_link_libraries(msgserver muduo_net)
